@@ -13,7 +13,7 @@ const TemporaryDrawer = props => {
   const { navArray, currentValue, setCurrentValue } = props;
 
   const [drawerState, setDrawerState] = useState({
-    open: false
+    open: true
   });
 
   const handleValueChange = newValue => {
